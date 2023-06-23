@@ -2,7 +2,7 @@ package com.acme;
 
 import java.text.DecimalFormat;
 
-public class PrintInfo implements IBondCalculate {
+public class PrintInfo implements ICalc {
 
     public PrintInfo() {
         // compiler will add a default constructor if ommitted

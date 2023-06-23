@@ -1,6 +1,6 @@
 package com.acme;
 
-public interface IBondCalculate {
+public interface ICalc {
     public void printBondInstalmentAmount(double x);
 
     public void printBondSchedule(double[] x);

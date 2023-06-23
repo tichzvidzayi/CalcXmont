@@ -5,7 +5,7 @@ import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 
-public class BondCalculator extends PrintInfo {
+public class Calc extends PrintInfo {
     /*
      * - PERCENT and MONTHS_IN_YEAR are final/constants because there are not
      * going to change during bond calcualtions.

@@ -13,7 +13,6 @@ public class Calc extends PrintInfo {
      * - Percent, months_in_year, principal, interestRatePerYear, years are private
      * so that ONLY the
      * current instance has access and can manipulate 'ENCAPSULATION'.
-     * 
      * By encapsulating we can ensure that the variables are accessed and modified
      * in a controlled manner,
      * maintaining data integrity and encapsulating the implementation details of
@@ -26,7 +25,7 @@ public class Calc extends PrintInfo {
     private float interestRatePerYear;
     private byte years;
 
-    public BondCalculator(int _principal, float _rate, byte _years) throws IllegalArgumentException {
+    public Calc(int _principal, float _rate, byte _years) throws IllegalArgumentException {
         // Exceptions for test cases
         if (_principal < 1000 || _principal > 1000000) {
             throw new IllegalArgumentException("Principal should be between 1000 - 1 000 000");
